@@ -35,7 +35,8 @@ $(function () {
       } else {
         $(this).addClass("future");
       }
-      $(".saveBtnNin").on("click", function(){
+      $(".saveBtnNine").on("click", function(event){
+        event.preventDefault();
         var element = $(this); // this is going to be the button clicked
         var userInput = element.siblings("textarea").val(); // value typed in by user
         console.log(userInput);
@@ -44,9 +45,12 @@ $(function () {
         var savedInfoNine = [hour, userInput];
         localStorage.setItem("savedInfoNineStringify", JSON.stringify(savedInfoNine));
         localStorage.setItem("savedInfoNine", savedInfoNine);
+        var itemStr = JSON.parse(localStorage.getItem("savedInfoNineStringify"));
+        localStorage.getItem("savedInfoNine");
       });
 
-      $(".saveBtnTen").on("click", function(){
+      $(".saveBtnTen").on("click", function(event){
+        event.preventDefault();
         var element = $(this); // this is going to be the button clicked
         var userInput = element.siblings("textarea").val(); // value typed in by user
         console.log(userInput);
@@ -55,6 +59,7 @@ $(function () {
         var savedInfoTen = [hour, userInput];
         localStorage.setItem("savedInfoTenStringify", JSON.stringify(savedInfoTen));
         localStorage.setItem("savedInfoTen", savedInfoTen);
+        localStorage.getItem("savedInfoTen");
       });
 
       
@@ -64,9 +69,81 @@ $(function () {
         console.log(userInput);
         var hour = element.parent().attr("id").split("-")[1]; // hour-#
         console.log(hour);
-        var savedInfoTen = [hour, userInput];
-        localStorage.setItem("savedInfoTenStringify", JSON.stringify(savedInfoTen));
-        localStorage.setItem("savedInfoTen", savedInfoTen);
+        var savedInfoEle = [hour, userInput];
+        localStorage.setItem("savedInfoEleStringify", JSON.stringify(savedInfoEle));
+        localStorage.setItem("savedInfoEle", savedInfoEle);
+      });
+
+      
+      $(".saveBtnTwlv").on("click", function(){
+        var element = $(this); // this is going to be the button clicked
+        var userInput = element.siblings("textarea").val(); // value typed in by user
+        console.log(userInput);
+        var hour = element.parent().attr("id").split("-")[1]; // hour-#
+        console.log(hour);
+        var savedInfoTwlv = [hour, userInput];
+        localStorage.setItem("savedInfoTwlvStringify", JSON.stringify(savedInfoTwlv));
+        localStorage.setItem("savedInfoTwlv", savedInfoTwlv);
+      });
+
+      
+      $(".saveBtnOne").on("click", function(){
+        var element = $(this); // this is going to be the button clicked
+        var userInput = element.siblings("textarea").val(); // value typed in by user
+        console.log(userInput);
+        var hour = element.parent().attr("id").split("-")[1]; // hour-#
+        console.log(hour);
+        var savedInfoOne = [hour, userInput];
+        localStorage.setItem("savedInfoOneStringify", JSON.stringify(savedInfoOne));
+        localStorage.setItem("savedInfoOne", savedInfoOne);
+      });
+
+      
+      $(".saveBtnTwo").on("click", function(){
+        var element = $(this); // this is going to be the button clicked
+        var userInput = element.siblings("textarea").val(); // value typed in by user
+        console.log(userInput);
+        var hour = element.parent().attr("id").split("-")[1]; // hour-#
+        console.log(hour);
+        var savedInfoTwo = [hour, userInput];
+        localStorage.setItem("savedInfoTwoStringify", JSON.stringify(savedInfoTwo));
+        localStorage.setItem("savedInfoTwo", savedInfoTwo);
+      });
+
+      
+      $(".saveBtnThr").on("click", function(){
+        var element = $(this); // this is going to be the button clicked
+        var userInput = element.siblings("textarea").val(); // value typed in by user
+        console.log(userInput);
+        var hour = element.parent().attr("id").split("-")[1]; // hour-#
+        console.log(hour);
+        var savedInfoThr = [hour, userInput];
+        localStorage.setItem("savedInfoThrStringify", JSON.stringify(savedInfoThr));
+        localStorage.setItem("savedInfoThr", savedInfoThr);
+      });
+
+      
+      $(".saveBtnFour").on("click", function(){
+        var element = $(this); // this is going to be the button clicked
+        var userInput = element.siblings("textarea").val(); // value typed in by user
+        console.log(userInput);
+        var hour = element.parent().attr("id").split("-")[1]; // hour-#
+        console.log(hour);
+        var savedInfoFour = [hour, userInput];
+        localStorage.setItem("savedInfoFourStringify", JSON.stringify(savedInfoFour));
+        localStorage.setItem("savedInfoFour", savedInfoFour);
+      });
+
+      
+      $(".saveBtnFive").on("click", function(){
+        var element = $(this); // this is going to be the button clicked
+        var userInput = element.siblings("textarea").val(); // value typed in by user
+        console.log(userInput);
+        var hour = element.parent().attr("id").split("-")[1]; // hour-#
+        console.log(hour);
+        var savedInfoFive = [hour, userInput];
+        localStorage.setItem("savedInfoFiveStringify", JSON.stringify(savedInfoFive));
+        localStorage.setItem("savedInfoFive", savedInfoFive);
       });
       
 
