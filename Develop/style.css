@@ -57,3 +57,120 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+
+.saveBtnNin {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06aed5;
+  color: white;
+}
+
+.saveBtnNin i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.saveBtnTen {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06aed5;
+  color: white;
+}
+
+.saveBtnTen i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.saveBtnEle {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06aed5;
+  color: white;
+}
+
+.saveBtnEle i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.saveBtnTwlv {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06aed5;
+  color: white;
+}
+
+.saveBtnTwlv i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.saveBtnOne {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06aed5;
+  color: white;
+}
+
+.saveBtnOne i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.saveBtnTwo {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06aed5;
+  color: white;
+}
+
+.saveBtnTwo i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.saveBtnThr {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06aed5;
+  color: white;
+}
+
+.saveBtnThr i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.saveBtnFour {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06aed5;
+  color: white;
+}
+
+.saveBtnFour i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.saveBtnFive {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06aed5;
+  color: white;
+}
+
+.saveBtnFive i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
